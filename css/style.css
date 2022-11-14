@@ -1,0 +1,253 @@
+:root{
+    --azul:#0085FF;
+
+}
+
+html{
+    background-color: black;
+    color: white;
+   
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: var(--azul); 
+}
+
+.main{
+
+    position: fixed;
+    width: 100%;
+    top: 2rem;
+    left:0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+   padding: 0.3rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family:'Montserrat', sans-serif;;
+}
+
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+}
+
+.Iam{  
+   margin-left: 45rem;
+    margin-top: 15rem;
+}
+
+.Iam h1{
+    font-family: 'Zen Antique', serif;
+    font-size: 7rem;
+    margin-top: -30rem;
+}
+
+.Iam h2{
+   margin-left: 10rem;
+   margin-top: -6rem;
+}
+
+.Iam p{
+    font-family: 'Zen Antique', serif;
+    font-size:2rem;
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+
+.Iam img{
+   margin-top: 10rem;
+    margin-left: -12rem;
+    width: 40%;
+    border-radius:50% ;
+}
+
+.proyectos h2{
+ 
+    margin-left: 20rem;
+}
+
+.proyectos{
+    margin-top: 25rem;
+}
+
+.img1 img{
+  margin-left: -6rem;
+  border-radius: 6rem;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+}
+
+.img2 img{
+    margin-left: 20rem;
+    margin-top: -25rem;
+    border: 1rem solid black;
+    border-radius: 6rem;
+}
+.img3 img{
+    margin-left: 55rem;
+    margin-top: -25rem;
+    border: 1rem solid black;
+    border-radius: 6rem;
+}
+
+.skills{
+margin-left: 10rem;
+margin-top: 50rem;
+display: grid;
+justify-content:space-around;
+grid-template: column;
+column-gap: 4;
+padding: 0;
+}
+
+.skills h2{
+    margin-left: 20rem;
+    margin-top: -6rem;
+}
+
+.logos svg{
+    width: 60%;
+    height: 60%;
+    padding: 1rem;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cuadrado1{
+    margin-top: -25rem;
+    margin-left: -3rem;
+    width: 40rem;
+    height: 30rem;
+    background-color: #65B5FF;
+    border-radius:5rem ;
+    opacity: 50%;
+}
+.cuadrado2{
+    margin-top: -50rem;
+    margin-left: 33rem;
+    width: 40rem;
+    height: 30rem;
+    background-color: #65B5FF;
+    border-radius:5rem ;
+    opacity: 50%;
+}
+
+.about{
+    margin-top: 50rem;
+
+}
+
+.about h2{
+    margin-left: 68rem;
+}
+.about p{
+    font-family: 'Zen Antique', serif;
+    font-size:2rem;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+
+.about img{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.style{
+    margin-top: 50rem;
+}
+
+.style h2{
+    margin-left: 20rem;
+}
+
+.style h1{
+    font-family: 'Zen Antique', serif;
+    font-size: 7rem;
+    margin-left: 65rem;
+}
+
+.style p{
+    font-family: 'Zen Antique', serif;
+    font-size:2rem;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+ }
+
+.posters{
+display: grid;
+grid-template-columns: 20% 20% 20%;
+
+
+}
+
+.posters img{
+    margin-left: 22rem;
+    padding: 2rem;
+    width: 22rem;
+    height: 40rem;
+
+}
+
+.contact{
+    margin-bottom: 25rem;
+}
+.contact h2{
+    margin-left: 75rem;
+    margin-top: 50rem;
+}
+.icons svg{
+    width: 5%;
+    height: 5%;
+    
+    margin-left: 25rem;
+}
+
+.line{
+width: 66rem;
+height: 0.2rem;
+background-color: white;
+margin-left: 25rem;
+}
+
+footer{
+    font-family: 'Zen Antique', serif;
+    font-size:1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25rem;  
+}
